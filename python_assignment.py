@@ -17,7 +17,6 @@ print(arr[d:] + arr[:d])
 arr = ["aaa", "bbb", "ccc", "bbb",
 "aaa", "aaa"]
 from collections import Counter
-import imp
 dict_arr = Counter(arr)
 value = sorted(dict_arr.values(), reverse=True)
 second_large = value[1]
